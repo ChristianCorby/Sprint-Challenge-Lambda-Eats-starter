@@ -2,6 +2,7 @@ import React from "react";
 import SelectBox from "./components/pizzaSize"
 import Toppings from "./components/pizzaToppings"
 import ToggleSwitch from "./components/pizzaSub";
+import Special from "./components/pizzaSpecial"
 const App = () => {
   return (
     <>
@@ -34,7 +35,7 @@ const App = () => {
       <p>Gluten Free Crust?</p>
       <ToggleSwitch/>
       <h4>Special Instructions</h4>
-      <pizzaSpecial/>
+      <Special/>
     </>
   );
 };
